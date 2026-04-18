@@ -1,0 +1,27 @@
+# --- Vivado Project Junk ---
+*.log
+*.jou
+*.str
+*.os
+*.pb
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/utils_1/
+
+# --- Simulation Outputs (The stuff in your screenshots) ---
+xsim.dir/
+*.wdb
+*.vcd
+velocity.log
+simulate.bat
+elaborate.bat
+compile.bat
+
+# --- Project Files ---
+# We keep the .tcl script, so we don't strictly need the binary project files
+*.xpr
+*.ppath
